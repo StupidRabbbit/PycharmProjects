@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/sklearn_ml/test.py" line="154" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1a23cd5-e972-43ee-8de7-4e08f6c70128" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="plr-svm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml-project/plr-svm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+              <folding>
+                <element signature="e#15#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component_attack.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ml-project/component_attack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="000005train.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example_data/000005train.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sklearn_ml/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9275">
+              <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>doc</find>
+      <find>reverse</find>
+      <find>label_dict</find>
+      <find>6, 1: 6, 2:</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project1/test.py" />
+        <option value="$PROJECT_DIR$/project1/test1/test.py" />
+        <option value="$PROJECT_DIR$/project1/test1/test-current.txt" />
+        <option value="$PROJECT_DIR$/project1/test1/system-current.txt" />
+        <option value="$PROJECT_DIR$/project1/test1/raw_api_result.txt" />
+        <option value="$PROJECT_DIR$/project1/test1/test_01.py" />
+        <option value="$PROJECT_DIR$/project1/test1/ml-test1.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/sk_sample1.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/test1025.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/sk_test1.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/presidential_polls.py" />
+        <option value="$PROJECT_DIR$/project1/crawler/crawler11.8.py" />
+        <option value="$PROJECT_DIR$/scrapy/test_scrapy/test_scrapy/spiders/douban_spider.py" />
+        <option value="$PROJECT_DIR$/scrapy/test_scrapy/test_scrapy/items.py" />
+        <option value="$PROJECT_DIR$/scrapy/test_scrapy/test_scrapy/spiders/meituan_spider.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/KNN.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/CompleteKNN.py" />
+        <option value="$PROJECT_DIR$/little_elephant/panda_basic.py" />
+        <option value="$PROJECT_DIR$/little_elephant/pandas_tools.py" />
+        <option value="$PROJECT_DIR$/little_elephant/monster.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/CompleteKNN.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/number_recognize.py" />
+        <option value="$PROJECT_DIR$/project1/test1/extract_api.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/TitanicExample.py" />
+        <option value="$PROJECT_DIR$/little_elephant/pandas_1117.py" />
+        <option value="$PROJECT_DIR$/little_elephant/movie_analysis.py" />
+        <option value="$PROJECT_DIR$/little_elephant/pandas_tools_06.py" />
+        <option value="$PROJECT_DIR$/little_elephant/pandas1121.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/DecisionTree.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/DecisionTree_glasses.py" />
+        <option value="$PROJECT_DIR$/ml_action/kmeans_location.py" />
+        <option value="$PROJECT_DIR$/ml_action/kMeans.py" />
+        <option value="$PROJECT_DIR$/project1/crawler/Crawler.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/naivebayes_basic.py" />
+        <option value="$PROJECT_DIR$/ml-project/stock_analysis.py" />
+        <option value="$PROJECT_DIR$/ml-project/stock_LR.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/nb_news.py" />
+        <option value="$PROJECT_DIR$/CUI_Blog/logistic_basic.py" />
+        <option value="$PROJECT_DIR$/ml-project/sb's.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/pandas_practice.py" />
+        <option value="$PROJECT_DIR$/deep_learning/lstm_stock.py" />
+        <option value="$PROJECT_DIR$/ml-project/stock_data_load.py" />
+        <option value="$PROJECT_DIR$/ml-project/component_attack.py" />
+        <option value="$PROJECT_DIR$/ml-project/stock_timeseries.py" />
+        <option value="$PROJECT_DIR$/ml-project/simple-segment/example.py" />
+        <option value="$PROJECT_DIR$/ml-project/plr_segment/example.py" />
+        <option value="$PROJECT_DIR$/sklearn_ml/test.py" />
+        <option value="$PROJECT_DIR$/ml-project/plr_segment/example_data/test.csv" />
+        <option value="$PROJECT_DIR$/ml-project/plr-svm.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="89" />
+    <option name="y" value="4" />
+    <option name="width" value="1488" />
+    <option name="height" value="1164" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="PycharmProjects" type="cbb8eebc:String" user="PycharmProjects" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="deep_learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-project" type="462c0819:PsiDirectoryNode" />
+              <item name="plr_segment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-project" type="462c0819:PsiDirectoryNode" />
+              <item name="plr_segment" type="462c0819:PsiDirectoryNode" />
+              <item name="example_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="ml_action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-segment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="simple-segment" type="462c0819:PsiDirectoryNode" />
+              <item name="example_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="sklearn_ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JetBrains\PycharmProjects\ml-project\plr_segment\example_data" />
+      <recent name="E:\JetBrains\PycharmProjects\ml-project\plr_segment" />
+      <recent name="E:\JetBrains\PycharmProjects" />
+      <recent name="E:\JetBrains\PycharmProjects\ml-project" />
+      <recent name="E:\JetBrains\PycharmProjects\files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JetBrains\PycharmProjects\little_elephant" />
+      <recent name="E:\JetBrains\PycharmProjects\CUI_Blog" />
+      <recent name="E:\JetBrains\PycharmProjects\sklearn_ml" />
+      <recent name="E:\JetBrains\PycharmProjects\project1\test1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.plr-svm">
+    <configuration name="component_attack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml-project/component_attack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pandas_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sklearn_ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearn_ml/pandas_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="plr-svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml-project/plr-svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="stock_data_load" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml-project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml-project/stock_data_load.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sklearn_ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearn_ml/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.pandas_practice" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.component_attack" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stock_data_load" />
+      <item index="4" class="java.lang.String" itemvalue="Python.plr-svm" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.plr-svm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.component_attack" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stock_data_load" />
+        <item index="4" class="java.lang.String" itemvalue="Python.pandas_practice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1a23cd5-e972-43ee-8de7-4e08f6c70128" name="Default" comment="" />
+      <created>1505374461236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505374461236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1170" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22135922" sideWeight="0.08645833" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3514563" sideWeight="0.9135417" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34174758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22135922" sideWeight="0.08645833" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2524272" sideWeight="0.9135417" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34174758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/number_recognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/CompleteKNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/statsmodels/tsa/stattools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/little_elephant/main——05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/little_elephant/main_06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/stock_LR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/naivebayes_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10467">
+          <caret line="988" column="0" lean-forward="true" selection-start-line="988" selection-start-column="0" selection-end-line="988" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/little_elephant/pandas_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-797">
+          <caret line="82" column="31" lean-forward="false" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/little_elephant/pandas_tools_06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="3888" column="0" lean-forward="false" selection-start-line="3888" selection-start-column="0" selection-end-line="3888" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/logistic_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-762174762/numpy/core/umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="3880" column="4" lean-forward="false" selection-start-line="3880" selection-start-column="4" selection-end-line="3880" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/statsmodels/tsa/tests/results/results_arima.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/statsmodels/tsa/arima_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="1007" column="8" lean-forward="false" selection-start-line="1007" selection-start-column="8" selection-end-line="1007" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-762174762/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68775">
+          <caret line="1969" column="4" lean-forward="false" selection-start-line="1969" selection-start-column="4" selection-end-line="1969" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/tools/datetimes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7210">
+          <caret line="229" column="44" lean-forward="false" selection-start-line="229" selection-start-column="36" selection-end-line="229" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/reshape/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/io/parsers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16065">
+          <caret line="498" column="4" lean-forward="false" selection-start-line="498" selection-start-column="4" selection-end-line="498" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklearn_ml/pandas_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/lstm_stock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119035">
+          <caret line="3401" column="8" lean-forward="false" selection-start-line="3401" selection-start-column="8" selection-end-line="3401" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/this.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/nb_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUI_Blog/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml_action/kMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="131" column="14" lean-forward="false" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/indexes/datetimes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68285">
+          <caret line="2001" column="51" lean-forward="false" selection-start-line="2001" selection-start-column="51" selection-end-line="2001" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/sb's.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/test1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/test1/ml-test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/simple-segment/fit.py" />
+    <entry file="file://$PROJECT_DIR$/ml-project/simple-segment/example.py" />
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/stock_data_load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1505">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31220">
+          <caret line="943" column="32" lean-forward="false" selection-start-line="943" selection-start-column="32" selection-end-line="943" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-segment/fit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="546" column="0" lean-forward="false" selection-start-line="546" selection-start-column="0" selection-end-line="546" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example_data/000005.csv" />
+    <entry file="file://$PROJECT_DIR$/ml-project/stock_timeseries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example_data/000005test.csv" />
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklearn_ml/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9275">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="4279" column="0" lean-forward="false" selection-start-line="4279" selection-start-column="0" selection-end-line="4279" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-segment/example_data/000005.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example_data/000005train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/plr_segment/example_data/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="64" lean-forward="false" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklearn_ml/result.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/plr-svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/ml-project-component_attack_result2.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-project/component_attack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
