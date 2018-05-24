@@ -146,10 +146,10 @@ def add_features(filepath):
 #svm分类器
 def training(features,label,testfilepath):
 
-    # clf=SVC()
-    # clf.fit(features,label)
-    clf=LogisticRegression()
+    clf=SVC(kernel='poly')
     clf.fit(features,label)
+    # clf=LogisticRegression()
+    # clf.fit(features,label)
     #我手动分的测试集
     df = pd.read_csv(testfilepath,usecols=[ 'open', 'high', 'close', 'low', 'volume', 'turnover','alt','itl'])
     df = df.iloc[::-1]

@@ -115,7 +115,7 @@ dummies_Pclass = pd.get_dummies(data_train['Pclass'], prefix= 'Pclass')
 df=pd.concat([data_train,dummies_Cabin,dummies_Embarked,dummies_Sex,dummies_Pclass],axis=1)
 df.drop(['Pclass', 'Name', 'Sex', 'Ticket', 'Cabin', 'Embarked'],axis=1,inplace=True)
 print '----------------------'
-print df
+# print df
 #各属性值之间scale差距太大，将对收敛速度造成几万点伤害值！甚至不收敛！age&fare
 import sklearn.preprocessing as preprocessing
 #这块fit_transform的输入必须是2D的，有个fit，所以是二维的feature和sample（标签）
@@ -149,8 +149,9 @@ clf = linear_model.LogisticRegression(C=1.0, penalty='l1', tol=1e-6)
 all_data = df.filter(regex='Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass_.*')
 X=all_data.as_matrix()[:,1:]
 y=all_data.as_matrix()[:,0]
+
 # print cross_validation.cross_val_score(clf,X,y)
-# print model_selection.cross_val_score(clf,X,y)
+print model_selection.cross_val_score(clf,X,y,cv=5),'cross_val_score'
 # 分割数据，按照 训练数据:cv数据 = 7:3的比例
 split_train,split_cv=model_selection.train_test_split(df,test_size=0.3,random_state=0)
 train_df = split_train.filter(regex='Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass_.*')
@@ -159,10 +160,91 @@ clf = linear_model.LogisticRegression(C=1.0, penalty='l1', tol=1e-6)
 clf.fit(train_df.as_matrix()[:,1:],train_df.as_matrix()[:,0])
 cv_df=split_cv.filter(regex='Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass_.*')
 predictions=clf.predict(cv_df.as_matrix()[:,1:])
+# print predictions,'prediction'
 #把错误的例子都摘出来分析
 origin_data_train=pd.read_csv('D:\kaggle_data\Kaggle_Titanic-master\Kaggle_Titanic-master\\train.csv')
 bad_cases=origin_data_train.loc[origin_data_train['PassengerId'].isin(split_cv[predictions!=cv_df.as_matrix()[:,0]]['PassengerId'].values)]
-#print bad_cases
+# print bad_cases
+import numpy as np
+import matplotlib.pyplot as plt
+# from sklearn.learning_curve import learning_curve
+from sklearn.model_selection import learning_curve
+
+# 用sklearn的learning_curve得到training_score和cv_score，使用matplotlib画出learning curve
+def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None, n_jobs=1,
+                        train_sizes=np.linspace(.05, 1., 20), verbose=0, plot=True):
+    """
+    画出data在某模型上的learning curve.
+    参数解释
+    ----------
+    estimator : 你用的分类器。
+    title : 表格的标题。
+    X : 输入的feature，numpy类型
+    y : 输入的target vector
+    ylim : tuple格式的(ymin, ymax), 设定图像中纵坐标的最低点和最高点
+    cv : 做cross-validation的时候，数据分成的份数，其中一份作为cv集，其余n-1份作为training(默认为3份)
+    n_jobs : 并行的的任务数(默认1)
+    """
+    train_sizes, train_scores, test_scores = learning_curve(
+        estimator, X, y, cv=cv, n_jobs=n_jobs, train_sizes=train_sizes, verbose=verbose)
+
+    train_scores_mean = np.mean(train_scores, axis=1)
+    train_scores_std = np.std(train_scores, axis=1)
+    test_scores_mean = np.mean(test_scores, axis=1)
+    test_scores_std = np.std(test_scores, axis=1)
+
+    if plot:
+        plt.figure()
+        plt.title(title)
+        if ylim is not None:
+            plt.ylim(*ylim)
+        plt.xlabel('train samples')
+        plt.ylabel('scores')
+        # plt.gca().invert_yaxis()
+        plt.grid()
+
+        plt.fill_between(train_sizes, train_scores_mean - train_scores_std, train_scores_mean + train_scores_std,
+                         alpha=0.1, color="b")
+        plt.fill_between(train_sizes, test_scores_mean - test_scores_std, test_scores_mean + test_scores_std,
+                         alpha=0.1, color="r")
+        plt.plot(train_sizes, train_scores_mean, 'o-', color="b", label='train score')
+        plt.plot(train_sizes, test_scores_mean, 'o-', color="r", label='test score')
+
+        plt.legend(loc="best")
+
+        plt.draw()
+        plt.show()
+        # plt.gca().invert_yaxis()
+
+    midpoint = ((train_scores_mean[-1] + train_scores_std[-1]) + (test_scores_mean[-1] - test_scores_std[-1])) / 2
+    diff = (train_scores_mean[-1] + train_scores_std[-1]) - (test_scores_mean[-1] - test_scores_std[-1])
+    return midpoint, diff
+
+plot_learning_curve(clf, 'learning curve', X, y)
+
+
+#模型融合
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import BaggingRegressor
+train_df1=df.filter(regex='Survived|Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass.*|Mother|Child|Family|Title')
+test_df=split_cv.filter(regex='Age_.*|SibSp|Parch|Fare_.*|Cabin_.*|Embarked_.*|Sex_.*|Pclass.*|Mother|Child|Family|Title')
+test_mat=test_df.as_matrix()
+train_mat=train_df1.as_matrix()
+t_y=train_mat[:,0]
+t_X=train_mat[:,1:]
+base_clf=linear_model.LogisticRegression(C=1.0,penalty='l1',tol=1e-6)
+bagging_clf=BaggingClassifier(base_estimator=base_clf,n_estimators=10,max_samples=1.0, max_features=1.0, bootstrap=True, bootstrap_features=False)
+bagging_clf.fit(t_X,t_y)
+# print model_selection.cross_val_score(bagging_clf,t_X,t_y),'bagging_clf, cv_score'
+predictions_bag=bagging_clf.predict(test_mat)
+print type(predictions_bag)
+test_label_df=split_cv['Survived']
+test_nd=np.array(test_label_df)
+print abs(predictions_bag-test_nd)
+#numpy可以直接做数学运算
+error=sum(abs(predictions_bag-test_nd))/len(test_nd)
+print error,'error rate'
+
 
 
 

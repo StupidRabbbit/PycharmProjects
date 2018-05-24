@@ -279,11 +279,226 @@ from  sklearn.preprocessing import Normalizer
 #                               repeat=True)
 # plt.show()
 # print'\n'.join([''.join([('Iloveyou'[(x-y)%7]if((x*0.05)**2+(y*0.1)**2-1)**3-(x*0.05)**2*(y*0.1)**3<=0 else' ')for x in range(-30,30)])for y in range(15,-15,-1)])
-dic={}
-dic[3]=6
-print dic
-dic[3]=7
-print dic
+# dic={}
+# dic[3]=6
+# print dic
+# dic[3]=7
+# print dic
+# s='AA'
+# n=len(s)
+# import math
+# li=list(s)
+# result=0
+# for i,v in enumerate(li):
+#     result+=math.pow(26,n-i-1)*(ord(v)-64)
+# print int(result)
+# 快速排序
+# def partition(v, left, right):
+#     key = v[left]
+#     low = left
+#     high = right
+#     #右边向左推，把比基准大的交换到key左边，左边的同理，
+#     #直到左边都比key小，右边都比key大为止
+#     while low < high:
+#         #一次最多交换两个数字
+#         #从右到左一个一个推，搜索有没有比key小的，
+#         # 直到有比key小的high指针停下
+#         while (low < high) and (v[high] >= key):
+#             high -= 1
+#         #把当前指的数字赋给左基准
+#         v[low] = v[high]
+#         while (low < high) and (v[low] <= key):
+#             low += 1
+#         v[high] = v[low]
+#         v[low] = key
+#     return low
+# # def quicksort(v,left,right,mid):
+# #     result=0
+# #     while
+# def quicksort(v, left, right,mid):
+#     result=0
+#     if left<right:
+#         p=partion(v, left, right)
+#         quicksort(v, left, p-1,mid)==mid
+#         quicksort(v, p+1, right,mid)==mid
+#         # print result
+#     return v
+# s = [7,2,5,3,6,4,8]
+# mid=len(s)/2
+# print("before sort:",s)
+# s1 = quicksort(s, left = 0, right = len(s)-1,mid=mid)
+# print("after sort:",s1)
+# sorted()
+# p='i am a girl'
+# print ' '.join(reversed(p.split(' ')))
+
+#别人的希尔排序代码
+#引用网址：http://www.cnblogs.com/qlshine/p/6052223.html
+# def shellSort(nums):
+#     # 设定步长
+#     step = len(nums)/2
+#     while step > 0:
+#         for i in range(step, len(nums)):
+#             # 类似插入排序, 当前值与指定步长之前的值比较,
+#             # 把小的数值往前推符合条件则交换位置
+#             while i >= step and  nums[i]<nums[i-step] :
+#                 #两个数直接交换数值，不需要第三个引用来存放数值，
+#                 # 就是同时赋值
+#                 nums[i], nums[i-step] = nums[i-step], nums[i]
+#                 i -= step
+#                 print nums
+#         step = step/2
+#     return nums
+# if __name__ == '__main__':
+#     nums = [7,2,5,3,2,6,4,8]
+# #     print shellSort(nums)
+# def select_sort(lists):
+#     # 选择排序
+#     count = len(lists)
+#     for i in range(0, count):
+#         min = i
+#         for j in range(i + 1, count):
+#             if lists[min] > lists[j]:
+#                 min = j
+#         lists[min], lists[i] = lists[i], lists[min]
+#     return lists
+# nums = [7,2,5,3,2,6,4,8]
+# print select_sort(nums)
+# def merge(left, right):
+#     i, j = 0, 0
+#     result = []
+#     while i < len(left) and j < len(right):
+#         if left[i] <= right[j]:
+#             result.append(left[i])
+#             i += 1
+#         else:
+#             result.append(right[j])
+#             j += 1
+#     result += left[i:]
+#     result += right[j:]
+#     return result
+# def merge_sort(lists):
+#     # 归并排序
+#     if len(lists) <= 1:
+#         return lists
+#     num = len(lists) / 2
+#     #最后一次分是len(nums)=2
+#     left = merge_sort(lists[:num])
+#     right = merge_sort(lists[num:])
+#     return merge(left, right)
+#
+# nums = [7,2,5,3,2,6,4,8,0]
+# print merge_sort(nums)
+# # print range(0,7)
+
+# 利用q_select查找第k大的值
+# def partition(s, m, n):
+#     # s is a list
+#     key = s[n - 1]
+#     l, r = m, n - 2
+#     while True:
+#         while l <= n - 2 and s[l] <= key:
+#             l += 1
+#         while r >= m and s[r] > key:
+#             r -= 1
+#         if l < r:
+#             s[l], s[r] = s[r], s[l]
+#         else:
+#             break
+#     s[l], s[n - 1] = s[n - 1], s[l]
+#     return l
+#
+# def midin3(s, m, n):
+#     print s,'before'
+#     md = m + (n - m) / 2
+#     if s[m] > s[md]:
+#         s[m], s[md] = s[md], s[m]
+#     if s[m] > s[n]:
+#         s[m], s[n] = s[n], s[m]
+#     if s[md] > s[n]:
+#         s[md], s[n] = s[n], s[md]
+#     s[md], s[n - 1] = s[n - 1], s[md]
+#     print s,'after'
+#     # return s[n - 1]
+# def partition(v, left, right):
+#     key = v[left]
+#     low = left
+#     high = right
+#     while low < high:
+#         while (low < high) and (v[high] >= key):
+#             high -= 1
+#         v[low] = v[high]
+#         while (low < high) and (v[low] <= key):
+#             low += 1
+#         v[high] = v[low]
+#         v[low] = key
+#     return low
+# def findKth(s, m, n, k):
+#     #k超出了（n,m）的范围
+#     if k - 1 > n or k - 1 < m:
+#         return False
+#     if m <= n:
+#         par = partition(s, m, n)
+#         if par == k - 1:
+#             return A[:par]
+#         #第k小的在par左边，在左半部分找
+#         elif k - 1 < par:
+#             return findKth(s, 0, par - 1, k)
+#         else:
+#             return findKth(s, par + 1, n, k)
+# if __name__ == '__main__':
+#     A = [6, 7, 2, 9, 1, 4, 5, 11, 10, 8]
+#     lens = len(A)
+#     print findKth(A, 0, lens - 1, 5)
+# nums=[1,2,3,4]
+# if len(nums)==0:
+#     print 0
+# l,r,mid=0,len(nums)-1,0
+# if nums[l]<nums[r]:
+#     print nums[l]
+# while l<r:
+#     mid=(l+r)/2
+#     if nums[mid]>=nums[l]:
+#         l=mid+1
+#     elif nums[mid]<nums[r]:
+#         r=mid-1
+#
+# print nums[mid]
+#
+# min(nums)
+#
+#
+# import numpy as np
+# x = np.array([1, 2])
+# y = np.array([[0,0],[1,1],[2,2]])
+# print x.reshape([2,-1])
+# print y.shape
+# print x+y
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#
+#     # 返回构造的TreeNode根节点
+# def reConstructBinaryTree(pre, tin):
+#         # write code here
+#         if len(pre) == 0:
+#             return None
+#         if len(pre) == 1:
+#             print 'i am in'
+#             print pre
+#             return TreeNode(pre[0])
+#         else:
+#             res = TreeNode(pre[0])
+#             res.left = reConstructBinaryTree(pre[1: tin.index(pre[0]) + 1], tin[: tin.index(pre[0])])
+#             res.right = reConstructBinaryTree(pre[tin.index(pre[0]) + 1: ], tin[tin.index(pre[0]) + 1: ])
+#         return res
+# pre=[1,2,4,7,3,5,6,8]
+# tin=[4,7,2,1,5,3,8,6]
+# tree=reConstructBinaryTree(pre,tin)
+# print tree
+
 
 
 
